@@ -11,7 +11,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to
+          This is
           {' '}
           <a href="https://nextjs.org">reactForums!</a>
         </h1>
