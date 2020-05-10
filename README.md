@@ -1,6 +1,6 @@
 # \{ reactForums \}
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs) [![GitHub Release](https://img.shields.io/badge/release-0.0.0-blue)]()
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs) [![GitHub Release](https://img.shields.io/badge/release-0.0.0-blue)]() [![Build Status](https://travis-ci.org/reactForums/reactForums.svg?branch=master)](https://travis-ci.org/reactForums/reactForums) [![Coverage Status](https://coveralls.io/repos/github/reactForums/reactForums/badge.svg?branch=setup)](https://coveralls.io/github/reactForums/reactForums?branch=setup)
 
 # Table of Contents
 
