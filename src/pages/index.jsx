@@ -13,7 +13,7 @@ export default function Home() {
         <h1 className="title">
           Welcome to
           {' '}
-          <a href="https://nextjs.org">Next.js!</a>
+          <a href="https://nextjs.org">reactForums!</a>
         </h1>
 
         <p className="description">

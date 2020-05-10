@@ -10,6 +10,18 @@
     "lint:fix": "npm run lint -- --fix",
     "format": "prettier-eslint '$PWD/src/**/*.{js,jsx}'"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    ".{js,jsx}": [
+      "npm run lint:fix",
+      "format",
+      "git add"
+    ]
+  },
   "dependencies": {
     "next": "9.3.6",
     "react": "16.13.1",
@@ -22,6 +34,8 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.1",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.2",
     "prettier": "^2.0.5",
     "prettier-eslint": "^9.0.1",
     "prettier-eslint-cli": "^5.0.0"
