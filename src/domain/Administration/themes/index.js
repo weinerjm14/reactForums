@@ -1,1 +1,2 @@
-// this is the admin dashboard theming directory; to be distinguished from the frontend theming directory.
+// this is the admin dashboard theming directory
+// To be distinguished from the frontend theming directory.

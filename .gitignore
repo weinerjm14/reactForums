@@ -31,4 +31,4 @@ yarn-error.log*
 .env.production.local
 
 # todo list
-TODO.md 
+MOSES.md 
