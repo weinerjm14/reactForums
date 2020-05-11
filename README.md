@@ -62,7 +62,7 @@ Please read our [contributing guide](./CONTRIBUTING.md) to learn about our devel
 
 ## Contributors
 
-We are very thankful for [each and every one of you](./CONTRIBUTORS.MD) who contribute in any way. We can't be excellent without you.
+We are very thankful for [each and every one of you](./CONTRIBUTORS.md) who contribute in any way. We can't be excellent without you.
 
 ## License
 
