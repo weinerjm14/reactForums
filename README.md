@@ -17,6 +17,8 @@
 - [Contributors](#contributors)
 - [License](#license)
 
+![reactForums](/public/logos/logo-04.png)
+
 ## What is reactForums
 
 For non-developer web community admins who need a quick, customizable community building solution, { reactForums } is a free and open source web based forum app software that provides robust community platform tools out of the box. Unlike many popular forum options available, our software was built with the future of tech and online communities in mind.
@@ -29,11 +31,11 @@ With { reactForums }, you shouldn't have to worry about the dirty details of web
 
 ### Installation Requirements
 
-Text
+Not currently available.
 
 ### Getting Started
 
-Text
+Not currently available.
 
 ## Documentation
 
@@ -42,11 +44,11 @@ To this end, we've divided documentation into two parts: one for community admin
 
 ### For Community Admins
 
-Text
+Not currently available.
 
 ### For Developers
 
-Text
+Not currently available.
 
 ## Contributing
 
