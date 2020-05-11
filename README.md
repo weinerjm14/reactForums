@@ -1,6 +1,15 @@
-# \{ reactForums \}
+<h1 align="center">
+  <a href="https://reactforums.com/">
+    { reactForums }
+  </a>
+</h1>
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs) [![GitHub Release](https://img.shields.io/badge/release-0.0.0-blue)]() [![Build Status](https://travis-ci.org/reactForums/reactForums.svg?branch=master)](https://travis-ci.org/reactForums/reactForums) [![Coverage Status](https://coveralls.io/repos/github/reactForums/reactForums/badge.svg?branch=setup)](https://coveralls.io/github/reactForums/reactForums?branch=setup)
+<div align="center">
+      <img src="https://img.shields.io/apm/l/atomic-design-ui.svg?" alt="reactForums is released under the MIT license." />
+      <img src="https://img.shields.io/badge/release-0.0.0-blue" alt="Release" />
+      <img src="https://travis-ci.org/reactForums/reactForums.svg?branch=master" alt="TravisCI Build Status" />
+      <img src="https://coveralls.io/repos/github/reactForums/reactForums/badge.svg?branch=master" alt="Test Coverage" />
+</div>
 
 # Table of Contents
 
@@ -17,6 +26,8 @@
 - [Contributors](#contributors)
 - [License](#license)
 
+![reactForums](/public/logos/logo-04.png)
+
 ## What is reactForums
 
 For non-developer web community admins who need a quick, customizable community building solution, { reactForums } is a free and open source web based forum app software that provides robust community platform tools out of the box. Unlike many popular forum options available, our software was built with the future of tech and online communities in mind.
@@ -29,11 +40,11 @@ With { reactForums }, you shouldn't have to worry about the dirty details of web
 
 ### Installation Requirements
 
-Text
+Not currently available.
 
 ### Getting Started
 
-Text
+Not currently available.
 
 ## Documentation
 
@@ -42,11 +53,11 @@ To this end, we've divided documentation into two parts: one for community admin
 
 ### For Community Admins
 
-Text
+Not currently available.
 
 ### For Developers
 
-Text
+Not currently available.
 
 ## Contributing
 
@@ -60,7 +71,7 @@ Please read our [contributing guide](./CONTRIBUTING.md) to learn about our devel
 
 ## Contributors
 
-We are very thankful for [each and every one of you](./CONTRIBUTORS.MD) who contribute in any way. We can't be excellent without you.
+We are very thankful for [each and every one of you](./CONTRIBUTORS.md) who contribute in any way. We can't be excellent without you.
 
 ## License
 
