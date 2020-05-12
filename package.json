@@ -23,7 +23,7 @@
     ".{js,jsx}": [
       "npm run lint:fix",
       "format",
-      "test"
+      "test:coverage"
     ]
   },
   "dependencies": {
