@@ -8,7 +8,8 @@
       <img src="https://img.shields.io/apm/l/atomic-design-ui.svg?" alt="reactForums is released under the MIT license." />
       <img src="https://img.shields.io/badge/release-0.0.0-blue" alt="Release" />
       <img src="https://travis-ci.org/reactForums/reactForums.svg?branch=master" alt="TravisCI Build Status" />
-<a href='https://coveralls.io/github/reactForums/reactForums' target="_blank"><img src='https://coveralls.io/repos/github/reactForums/reactForums/badge.svg' alt='Coverage Status' /></a>
+<a href='https://coveralls.io/github/reactForums/reactForums?branch=master'><img src='https://coveralls.io/repos/github/reactForums/reactForums/badge.svg?branch=master' alt='Coverage Status' /></a>
+
 
 </div>
 
