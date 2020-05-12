@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import Index from '../../../pages/index';
+import Admin from '../../../pages/admin';
 
 test('renders deploy link', () => {
-  const { getByText } = render(<Index />);
+  const { getByText } = render(<Admin />);
   const linkElement = getByText(/Admin Dashboard/);
   expect(linkElement).toBeInTheDocument();
 });
