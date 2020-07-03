@@ -47,13 +47,19 @@ Adhering to the following process is the best way to get your work included in t
    git pull [--rebase] upstream master
    ```
 
-5. Push your topic branch up to your fork:
+5. Run the dev:setup script before you start working to install npm packages and see the current state of the tests:
+
+   ```bash
+   npm run dev:setup
+   ```
+
+6. Push your topic branch up to your fork:
 
    ```bash
    git push origin <topic-branch-name>
    ```
 
-6. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
+7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
    with a clear title and description.
 
 **IMPORTANT**: By submitting patches, you agree to allow the project owners to license your work under the terms of the [MIT License](LICENSE).
