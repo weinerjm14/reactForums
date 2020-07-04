@@ -17,5 +17,9 @@
     "sourceType": "module"
   },
   "plugins": ["react", "jest"],
-  "rules": {}
+  "rules": {
+    "jsx-quotes": [2, "prefer-single"],
+    "quotes": [2, "single"],
+    "react/jsx-one-expression-per-line": "off"
+  }
 }

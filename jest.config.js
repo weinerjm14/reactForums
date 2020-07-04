@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 module.exports = {
   collectCoverageFrom: [
     '**/*.{js,jsx,ts,tsx}',
@@ -5,7 +7,7 @@ module.exports = {
     '!**/node_modules/**',
   ],
   setupFilesAfterEnv: ['<rootDir>/setupTests.js'],
-  testPathIgnorePatterns: ['/node_modules/', '/.next/'],
+  testPathIgnorePatterns: ['/node_modules/', '/.next/', '/coverage/'],
   transform: {
     '^.+\\.(js|jsx|ts|tsx)$': '<rootDir>/node_modules/babel-jest',
     '^.+\\.css$': '<rootDir>/config/jest/cssTransform.js',
