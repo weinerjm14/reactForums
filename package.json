@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev:setup": "npm i && npm run test:coverage",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -12,8 +13,7 @@
     "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "lint": "eslint '**/*.{js,jsx}'",
     "lint:fix": "npm run lint -- --fix",
-    "format": "prettier-eslint '$(PWD)/src/**/*.{js,jsx}'",
-    "dev:setup": "npm i && npm run test:coverage"
+    "format": "prettier-eslint '$(PWD)/src/**/*.{js,jsx}'"
   },
   "husky": {
     "hooks": {
