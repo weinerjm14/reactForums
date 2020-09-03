@@ -20,7 +20,7 @@ module.exports = {
     client: 'pg',
     connection: {
       host: 'localhost',
-      database: 'rFTests',
+      database: 'rFTest',
     },
     migrations: {
       directory: './data/migrations',

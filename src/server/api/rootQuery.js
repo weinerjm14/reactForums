@@ -1,16 +1,16 @@
-const { GraphQLObjectType, GraphQLInt } = require('graphql');
+const { GraphQLObjectType, GraphQLString } = require('graphql');
 
 const HelloType = new GraphQLObjectType({
   name: 'HelloType',
   fields: {
-    id: { type: GraphQLInt },
+    string: { type: GraphQLString },
   },
 });
 
 module.exports = new GraphQLObjectType({
   name: 'RootQuery',
   fields: {
-    world: {
+    hello: {
       type: HelloType,
       resolve() {
         return 'Hello!';
