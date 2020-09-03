@@ -1,20 +1,11 @@
-const { GraphQLObjectType, GraphQLString } = require('graphql');
-
-const HelloType = new GraphQLObjectType({
-  name: 'HelloType',
-  fields: {
-    string: { type: GraphQLString },
-  },
-});
+const { GraphQLObjectType } = require('graphql');
+const user = require('./users/queries/userQuery.js');
+const users = require('./users/queries/allUsersQuery.js');
 
 module.exports = new GraphQLObjectType({
   name: 'RootQuery',
   fields: {
-    hello: {
-      type: HelloType,
-      resolve() {
-        return 'Hello!';
-      },
-    },
+    user,
+    users,
   },
 });
