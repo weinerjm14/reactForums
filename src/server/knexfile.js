@@ -9,10 +9,10 @@ module.exports = {
       database: 'reactForums',
     },
     migrations: {
-      directory: './data/migrations',
+      directory: './src/server/data/migrations',
     },
     seeds: {
-      directory: './data/seeds',
+      directory: './src/server/data/seeds',
     },
   },
 
@@ -23,10 +23,10 @@ module.exports = {
       database: 'rFTest',
     },
     migrations: {
-      directory: './data/migrations',
+      directory: './src/server/data/migrations',
     },
     seeds: {
-      directory: './data/seeds',
+      directory: './src/server/data/seeds',
     },
   },
 
