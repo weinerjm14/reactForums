@@ -10,9 +10,9 @@ module.exports = {
   ],
   setupFilesAfterEnv: ['<rootDir>/setupTests.js'],
   testPathIgnorePatterns: [
-    '/node_modules/', 
-    '<rootDir>/.next/', 
-    '<rootDir>/coverage/'
+    '/node_modules/',
+    '<rootDir>/.next/',
+    '<rootDir>/coverage/',
   ],
   transform: {
     '^.+\\.(js|jsx|ts|tsx)$': '<rootDir>/node_modules/babel-jest',
